@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Menu - M&amp;E Kafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="nav-brand">M&amp;E Kafe</div>
+        <nav class="nav-links">
+            <a href="index.html">Beranda</a>
+            <a href="products.html" class="active">Menu</a>
+            <a href="index.html#maps">Maps</a>
+        </nav>
+    </header>
+
+    <!-- DETAIL MENU -->
+    <section class="section">
+        <div id="product-detail" class="detail-container">
+            <div class="detail-image">
+                <img id="detail-image" src="" alt="">
+            </div>
+            <div class="detail-info">
+                <h1 id="detail-name"></h1>
+                <p id="detail-price" class="detail-price"></p>
+                <p id="detail-desc"></p>
+
+                <h3>Catatan Menu</h3>
+                <ul id="detail-specs"></ul>
+
+                <div class="detail-buttons">
+                    <button class="btn" onclick="addToCart()">Tambah ke Pesanan</button>
+                    <a href="products.html" class="btn btn-secondary">Kembali ke Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        © 2025 M&amp;E Kafe - UAS Pemrograman Web
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
